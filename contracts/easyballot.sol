@@ -2,6 +2,11 @@
 pragma solidity ^0.8.17;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
+/*
+* @author Nader
+* @notice An Easy Ballot Smart Contract
+*/
+
 contract EasyBallotToken is ERC20 {
     address public owner;
 
